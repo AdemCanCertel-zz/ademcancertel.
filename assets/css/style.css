@@ -31,6 +31,46 @@ body {
     max-width: 800px;
 }
 
+#fire {
+    width: 1px;
+    height: 1px;
+    transform: scale(var(--size));
+    animation: fire 2s infinite;
+}
+
+#fury {
+    width: 1px;
+    height: 1px;
+    transform: scale(var(--size));
+}
+
+@keyframes fire{
+    0%{transform: scale(var(--size)) translateY(.17em) translateX(0em)}
+    50%{transform: scale(var(--size2)) translateY(-.1em) translateX(-.05em)}
+    100%{transform: scale(var(--size)) translateY(0.17em) translateX(0em)}
+}
+
+.typing-ademcan {
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 2em;
+}
+
+@keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
+
 .icon {
     
     display: inline-block;
@@ -103,3 +143,4 @@ a {
     text-align: center;
     margin: 40px auto;
 }
+
