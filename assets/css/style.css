@@ -51,6 +51,8 @@ body {
 }
 
 .typing-ademcan {
+    font-weight: 800;
+    letter-spacing: -.05rem;
     animation: typing 2s steps(22), blink .5s step-end infinite alternate;
     white-space: nowrap;
     overflow: hidden;
