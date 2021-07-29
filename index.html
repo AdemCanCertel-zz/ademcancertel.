@@ -12,6 +12,8 @@
     <!-- CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="icon" href="./assets/images/ademcan.jpg" type="image/x-icon" />
+    <link rel="stylesheet" href="https://unpkg.com/tippy.js@6/animations/scale.css">
+    <link rel="stylesheet" href="assets/tippy.css">
 
 </head>
 <body>
@@ -34,10 +36,11 @@
         </section>
         <section class="social">
             <div class="container social_link">
-                <a class="twitter" target="_blank" href="https://twitter.com/https://twitter.com/CertelAdemcan">Twitter</a>
-                <a class="github" target="_blank" href="https://github.com/AdemCanCertel">Github</a>
-                <a class="steam" target="_blank" href="https://steamcommunity.com/id/ademcancertel/">Steam</a>
-                <a class="email" target="_blank" href="mailto:ademcancertel619@gmail.com">e-mail</a>
+                <a id="discord" class="discord" target="_blank" href="https://discord.gg/dwgkB4hua2">Discord</a>
+                <a id="twitter" class="twitter" target="_blank" href="https://twitter.com/https://twitter.com/CertelAdemcan">Twitter</a>
+                <a id="github" class="github" target="_blank" href="https://github.com/AdemCanCertel">Github</a>
+                <a id="steam" class="steam" target="_blank" href="https://steamcommunity.com/id/ademcancertel/">Steam</a>
+                <a id="email" class="email" target="_blank" href="mailto:ademcancertel619@gmail.com">e-mail</a>
             </div>
 
               <p class="specialtext">The most beautiful words of the people I love</p>
@@ -53,11 +56,12 @@
         </section>
 
         <footer>
-            <div id="fire"></div>
-            <div id="fury"></div>
+            <p
+            id="statusIcon"
+          >
+        </p>
         </footer>
 
-        
     </main>
 
 
@@ -67,4 +71,9 @@
 
 </body>
 <script src="./assets/js/index.js"></script>
+<script src="./assets/js/presence.js"></script>
+
+<script src="https://unpkg.com/@popperjs/core@2"></script>
+<script src="https://unpkg.com/tippy.js@6"></script>
+<script src="assets/js/tippy.js"></script>
 </html>
