@@ -26,3 +26,8 @@
           content: 'Join my Discord server',
           animation: 'scale',
       })
+    // Trello
+       tippy('#trello', {
+          content: 'Trello',
+          animation: 'scale',
+      })
