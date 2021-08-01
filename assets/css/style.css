@@ -31,25 +31,6 @@ body {
     max-width: 800px;
 }
 
-#fire {
-    width: 1px;
-    height: 1px;
-    transform: scale(var(--size));
-    animation: fire 2s infinite;
-}
-
-#fury {
-    width: 1px;
-    height: 1px;
-    transform: scale(var(--size));
-}
-
-@keyframes fire{
-    0%{transform: scale(var(--size)) translateY(.17em) translateX(0em)}
-    50%{transform: scale(var(--size2)) translateY(-.1em) translateX(-.05em)}
-    100%{transform: scale(var(--size)) translateY(0.17em) translateX(0em)}
-}
-
 .typing-ademcan {
     font-weight: 800;
     letter-spacing: -.05rem;
@@ -130,6 +111,10 @@ a {
 }
 
 .email:hover {
+    color: #57F287;
+}
+
+.trello:hover{
     color: #57F287;
 }
 
