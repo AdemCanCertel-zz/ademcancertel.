@@ -21,13 +21,18 @@
           content: 'View my Twitter profile',
           animation: 'scale'
       })
-    // Twitter 
+    // Discord 
       tippy('#discord', {
           content: 'Join my Discord server',
           animation: 'scale',
       })
     // Trello
-       tippy('#trello', {
-          content: 'Trello',
-          animation: 'scale',
+      tippy('#trello', {
+        content: `Trello plan's`,
+        animation: 'scale'
+      })
+    // İnstagram
+      tippy('#instagram', {
+        content: 'View my İntagram profile',
+        animation: 'scale'
       })
