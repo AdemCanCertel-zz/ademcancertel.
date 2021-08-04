@@ -32,7 +32,7 @@
         animation: 'scale'
       })
     // İnstagram
-      tippy('#instagram', {
+      tippy('#ınstagram', {
         content: 'View my İntagram profile',
         animation: 'scale'
       })
