@@ -112,6 +112,10 @@ a {
     color: #57F287;
 }
 
+.blog:hover {
+    color: #57F287;
+}
+
 .special {
     color: white;
     max-width: 800px;
