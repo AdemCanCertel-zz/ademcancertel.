@@ -33,3 +33,8 @@
         content: 'View my İntagram profile',
         animation: 'scale'
       })
+    // Blog
+       tippy('#blog', {
+           conten: 'Blog',
+           animation: 'scale'
+       })
