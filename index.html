@@ -11,43 +11,63 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
+    <!--<link rel="stylesheet" href="assets/css/Repository.css">-->
     <link rel="icon" href="./assets/images/ademcan.jpg" type="image/x-icon" />
     <link rel="stylesheet" href="https://unpkg.com/tippy.js@6/animations/scale.css">
     <link rel="stylesheet" href="assets/tippy.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 
 </head>
-<body>
+<body class="p-0 m-0 box-border">
     
-    <main class="main">
-        <section class="int">
-            <div class="container">
-                <div class="ademcan">
-                    <img src="./assets/images/ademcan.jpg" class="ademcan_img">
+    <main class="block">
+        <section class="int text-center mb-2 m-4">
+            <div class="ml-auto mr-auto pl-5 pr-5 max-w-7xl">
+                <div class="ademcan m-4 text-center object-center">
+                    <img src="./assets/images/ademcan.jpg" class="ademcan_img max-w-screen-lg mx-auto text-center">
+                    <span
+                    id="statusIcon"
+                    class="w-2 h-2 rounded-full inline-flex bg-gray-400"
+                    style="top: 60px; left: 217px; position: relative;"
+                  >
                 </div>
-                <div class="about">
-                    <div style="display: flex; justify-content: center;" class="wrapper">
-                        <div class="title_ademcan">
-                        Hey, I'm AdemCan Certel 👋  
+                <div class="about mb-2">
+                    <div style="display: flex; justify-content: center;" cl6ass="wrapper">
+                        <div class="title_ademcan font-semibold text-4xl">
+                        Hey, I'm AdemCan Certel
                         <hr>
-                        </div>
+                        </div>                 
                     </div>
-                    <div class="description">
-                    <p>Welcome to my Website. My name is AdemCan and I am a FrontEnd Developer. I'm trying out great new libraries. I'm also in the process of learning ReactJS, TypeScript. I'll show you a lot of great projects.</p>
+                    <div class="m-5">
+                    <p
+                    >
+                    Welcome to my Github profile. My name is AdemCan and I am a FrontEnd Developer. 
+                    I'm trying out great new libraries. I'm also in the process of learning ReactJS, TypeScript. 
+                    I'll show you a lot of great projects.
+                    </p>
+
+                    <div id="listeningStatus" class="Lanyard_activity ml-1 ml-0.5 my-1.50 text-sm">
+                        <span class="text-center w-4 h-4 bg-green-500 rounded-full inline-flex">
+                        </span>
+                        <span id="listeningContent" class="ml-1"> Spotify Listening to <b>Spotify</b> </span>
+                      </div>   
                 </div>
                 </div>
             </div>
         </section>
-        <section class="social">
+        <section class="social text-2xl text-center">
             <div class="container social_link">
-                <a id="trello" class="trello" target="_blank" href="https://trello.com/b/r41pGuVr/ademcan-plans">Trello</a>
-                <a id="discord" class="discord" target="_blank" href="https://discord.gg/dwgkB4hua2">Discord</a>
-                <a id="twitter" class="twitter" target="_blank" href="https://twitter.com/CertelAdemcan">Twitter</a>
-                <a id="instagram" class="instagram" target="_blank" href="https://www.instagram.com/ademcancertel_/">Instagram</a>
-                <a id="github" class="github" target="_blank" href="https://github.com/AdemCanCertel">Github</a>
-                <a id="steam" class="steam" target="_blank" href="https://steamcommunity.com/id/ademcancertel/">Steam</a>
-                <a id="email" class="email" target="_blank" href="mailto:ademcancertel619@gmail.com">e-mail</a>
-                <a id="blog" class="blog" target="_blank" href="https://ademcancerteldev.medium.com/">Blog</a>
+                <a id="trello" class="text-white hover:text-green-300" target="_blank" href="https://trello.com/b/r41pGuVr/ademcan-plans">Trello</a>
+                <a id="discord" class="text-white hover:text-green-300" target="_blank" href="https://discord.gg/dwgkB4hua2">Discord</a>
+                <a id="twitter" class="text-white hover:text-green-300" target="_blank" href="https://twitter.com/CertelAdemcan">Twitter</a>
+                <a id="instagram" class="text-white hover:text-green-300" target="_blank" href="https://www.instagram.com/ademcancertel_/">İnstagram</a>
+                <a id="github" class="text-white hover:text-green-300" target="_blank" href="https://github.com/AdemCanCertel">Github</a>
+                <a id="steam" class="text-white hover:text-green-300" target="_blank" href="https://steamcommunity.com/id/ademcancertel/">Steam</a>
+                <a id="email" class="text-white hover:text-green-300" target="_blank" href="mailto:ademcancertel619@gmail.com">e-mail</a>
+                <a id="blog" class="text-white hover:text-green-300" target="_blank" href="https://ademcancerteldev.medium.com/">Blog</a>
             </div>
             </div>
 
@@ -67,12 +87,11 @@
        
     </main>
 
-
 </body>
 <script src="./assets/js/index.js"></script>
 <script src="./assets/js/presence.js"></script>
 
 <script src="https://unpkg.com/@popperjs/core@2"></script>
 <script src="https://unpkg.com/tippy.js@6"></script>
-<script src="assets/js/tippy.js"></script>
+<script src="./assets/js/tippy.js"></script>
 </html>
