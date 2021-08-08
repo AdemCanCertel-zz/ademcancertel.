@@ -1,13 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,600,700');
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-.main {
-    display: block;
-}
 
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -32,21 +23,6 @@ body {
     max-width: 800px;
 }
 
-.title_ademcan{
-    font-weight: 600;
-    font-size: 2em;
-}
-
-.description {
-    margin: 1.2rem;
-}
-
-.icon {
-    display: inline-block;
-    width: 2em;
-    height: 2em;
-}
-
 .int {
     padding-top: var(--int);
     padding-bottom: var(--int);
@@ -66,6 +42,7 @@ body {
 }
 
 .int .ademcan .ademcan_img {
+    text-align: center;
     border-radius: 100%;
     width: 8em;
     height: 8em;
@@ -74,6 +51,7 @@ body {
 }
 
 .social .social_link a {
+    text-align: center;
     font-weight: 600;
     line-height: 25px;
     display: inline-block;
@@ -82,38 +60,6 @@ body {
 a {
     color: white;
     text-decoration: none;
-}
-
-.twitter:hover{
-    color: #57F287;
-}
-
-.github:hover {
-    color: #57F287;
-}
-
-.steam:hover {
-    color: #57F287;
-}
-
-.email:hover {
-    color: #57F287;
-}
-
-.discord:hover {
-    color: #57F287;
-}
-
-.instagram:hover {
-    color: #57F287;
-}
-
-.trello:hover {
-    color: #57F287;
-}
-
-.blog:hover {
-    color: #57F287;
 }
 
 .special {
@@ -130,3 +76,25 @@ a {
     margin: 40px auto;
 }
 
+.swiper-container {
+    width: 600px;
+    height: 300px;
+  }
+  
+  
+
+  .Lanyard_activity { 
+    left: 468px;
+    padding:20px;
+    width:300px;
+    height:85px;
+    top: 20px;
+    position: relative;
+    -webkit-transition:background-color 1s;
+    transition:background-color 1s;
+    -webkit-transition:border-color 1s;
+    transition:border-color 1s;
+    background-color:#161616;
+    border:.75px solid hsla(0,0%,78.4%,.3);
+    border-radius:5px
+}
