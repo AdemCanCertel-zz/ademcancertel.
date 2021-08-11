@@ -50,51 +50,8 @@ body {
     object-fit: cover;    
 }
 
-.social .social_link a {
-    text-align: center;
-    font-weight: 600;
-    line-height: 25px;
-    display: inline-block;
-}
-
-a {
-    color: white;
-    text-decoration: none;
-}
-
 .special {
-    color: white;
     max-width: 800px;
     margin: 40px auto;
-    position: relative;
     font-weight: 300;
-    animation: fe30-anime 0.5s cubic-bezier(0.215, 0.61, 0.355, 1) 4s forwards;
-}
-
-.specialtext {
-    text-align: center;
-    margin: 40px auto;
-}
-
-.swiper-container {
-    width: 600px;
-    height: 300px;
-  }
-  
-  
-
-  .Lanyard_activity { 
-    left: 468px;
-    padding:20px;
-    width:400px;
-    height:70px;
-    top: 20px;
-    position: relative;
-    -webkit-transition:background-color 1s;
-    transition:background-color 1s;
-    -webkit-transition:border-color 1s;
-    transition:border-color 1s;
-    background-color:#161616;
-    border: .75px solid rgba(191, 248, 176, 0.3);
-    border-radius:10px
 }
