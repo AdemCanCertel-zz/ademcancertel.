@@ -41,16 +41,8 @@
         content: 'Blog',
         animation: 'scale'
       })
-    // Presence
-      tippy("#listeningStatus", {
-      allowHTML: true,
-      content: "Listening to music from Spotify",
-      animation: 'scale'
-    });
-  // Presence 2
-    tippy('#statusIcon', {
-      allowHTML: true,
-      content: "Active",
-      animation: 'scale'
-    })
-    
+    // Linkedin
+        tippy('#linkedin', {
+            content: 'Linkedin',
+            animation: 'scale'
+        })
