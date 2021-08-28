@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,600,700');
-
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 18px;
@@ -8,39 +7,59 @@ body {
     line-height: normal;
     letter-spacing: normal;
 }
-
 :root {
     --text-color: white;
     --bg-color: #111827;
     --int: 20px
 }
-
-.container {
+:root{
+    --fontweight: 500;
+    --size: 2rem;
+    --sizev: 2rem;
+    --fontsize: 1rem;
+    --radius: 0.5rem;
+    --textcolor: #9ae6b4;
+}
+.tags{
+    display: inline-flex;
+    vertical-align: top;
+    -webkit-box-align: center;
+    align-items: center;
+    max-width: 100%;
+    font-weight: var(--fontweight);
+    line-height: 1.2;
+    outline: transparent solid 2px;
+    outline-offset: 2px;
+    min-height: var(--size);
+    min-width: var(--sizev);
+    font-size: var(--fontsize);
+    border-radius: var(--radius);
+    padding-inline-start: 0.75rem;
+    padding-inline-end: 0.75rem;
+    background: rgba(154, 230, 180, 0.16);
+    color: var(--textcolor);
+}
+.container{
     margin-left: auto;
     margin-right: auto;
     padding-left: 20px;
     padding-right: 20px;
     max-width: 800px;
 }
-
-.int {
+.int{
     padding-top: var(--int);
     padding-bottom: var(--int);
 }
-
 .int, .social {
     font-size: 1.3em;
 }
-
 .int, .about, p {
     margin-bottom: 10px;
 }
-
 .int, .ademcan {
     text-align: center;
     margin-bottom: 1em;
 }
-
 .int .ademcan .ademcan_img {
     text-align: center;
     border-radius: 100%;
@@ -49,7 +68,6 @@ body {
     border: 4px solid #57F287;
     object-fit: cover;    
 }
-
 .special {
     max-width: 800px;
     margin: 40px auto;
