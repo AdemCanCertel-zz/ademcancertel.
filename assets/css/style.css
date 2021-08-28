@@ -11,8 +11,6 @@ body {
     --text-color: white;
     --bg-color: #111827;
     --int: 20px
-}
-:root{
     --fontweight: 500;
     --size: 2rem;
     --sizev: 2rem;
@@ -20,7 +18,7 @@ body {
     --radius: 0.5rem;
     --textcolor: #9ae6b4;
 }
-.tags{
+.tags {
     display: inline-flex;
     vertical-align: top;
     -webkit-box-align: center;
