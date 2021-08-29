@@ -4,12 +4,13 @@
         arrow: false,
         animation: 'scale',
       });
-    // Steam
+    /*
+     Steam
       tippy('#steam', {
           content: 'View my Steam profile',
           arrow: false,
           animation: 'scale',
-      })
+      })*/
     // Github
       tippy('#github', {
           content: 'View my GitHub profile',
@@ -21,16 +22,16 @@
           content: 'View my Twitter profile',
           animation: 'scale'
       })
-    // Discord 
+    /*
       tippy('#discord', {
           content: 'Join my Discord server',
           animation: 'scale',
-      })
-    // Trello
+      })*/
+    /*
       tippy('#trello', {
         content: `Trello plan's`,
         animation: 'scale'
-      })
+      })*/
     // İnstagram
       tippy('#instagram', {
         content: 'View my İntagram profile',
