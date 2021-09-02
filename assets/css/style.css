@@ -1,16 +1,46 @@
-@import url('https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,600,700');
-body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+* {
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
     font-size: 18px;
     background-color: var(--bg-color);
     color: var(--text-color);
     line-height: normal;
     letter-spacing: normal;
 }
-:root {
+:root{
     --text-color: white;
-    --bg-color: #111827;
+    --bg-color: #14223D;
     --int: 20px
+}
+.shuttle{
+    margin-top: 235px;
+    margin-right: 700px;
+    margin-right: 200%; 
+    margin-left: 21%; 
+    top: -0; 
+    width: 4rem; 
+    animation: spin 8s linear infinite; 
+    -webkit-animation: spin 8s linear infinite;
+}
+.vector{
+    margin-left:120%; 
+    margin-top: -230px;
+}
+.about-description{
+    margin: 20px; 
+    font-weight: 300;
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 800px;
+}
+:root{
     --fontweight: 500;
     --size: 2rem;
     --sizev: 2rem;
@@ -18,7 +48,8 @@ body {
     --radius: 0.5rem;
     --textcolor: #9ae6b4;
 }
-.tags {
+.tags{
+    
     display: inline-flex;
     vertical-align: top;
     -webkit-box-align: center;
@@ -37,36 +68,35 @@ body {
     background: rgba(154, 230, 180, 0.16);
     color: var(--textcolor);
 }
-.container{
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 20px;
-    padding-right: 20px;
-    max-width: 800px;
-}
 .int{
     padding-top: var(--int);
     padding-bottom: var(--int);
 }
-.int, .social {
+.int,.social {
     font-size: 1.3em;
 }
-.int, .about, p {
+.int,.about,p{
     margin-bottom: 10px;
 }
-.int, .ademcan {
+.int, .ademcan{
     text-align: center;
     margin-bottom: 1em;
 }
-.int .ademcan .ademcan_img {
-    text-align: center;
+.int .ademcan .ademcan_img{
+    margin-right: 1px; 
+    margin-right: 120%; 
     border-radius: 100%;
     width: 8em;
     height: 8em;
     border: 4px solid #57F287;
-    object-fit: cover;    
+    object-fit: cover;
+    transform-style: preserve-3d; 
+    transform: perspective(1000px) 
+    rotateX(0deg) 
+    rotateY(0deg) 
+    scale3d(1, 1, 1);
 }
-.special {
+.special{
     max-width: 800px;
     margin: 40px auto;
     font-weight: 300;
