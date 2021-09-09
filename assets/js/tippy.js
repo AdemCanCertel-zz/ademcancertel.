@@ -1,56 +1,43 @@
-    // E-mail
-    tippy('#email', {
+  // SOCİAL
+
+  // Mail
+    tippy('#mail',{
         content: 'Mail me',
         arrow: false,
         animation: 'scale',
+        theme: 'light'
       });
-    // Steam
-      tippy('#steam', {
-          content: 'View my Steam profile',
-          arrow: false,
-          animation: 'scale',
-      })
-    // Github
-      tippy('#github', {
-          content: 'View my GitHub profile',
-          arrow: false,
-          animation: 'scale'
-      })
-    // Twitter
-      tippy('#twitter', {
-          content: 'View my Twitter profile',
-          animation: 'scale'
-      })
-    // Discord 
-      tippy('#discord', {
-          content: 'Join my Discord server',
-          animation: 'scale',
-      })
-    // Trello
-      tippy('#trello', {
-        content: `Trello plan's`,
-        animation: 'scale'
-      })
-    // İnstagram
-      tippy('#instagram', {
-        content: 'View my İntagram profile',
-        animation: 'scale'
-      })
     // Blog
-      tippy('#blog', {
-        content: 'Blog',
-        animation: 'scale'
-      })
-    // Presence
-      tippy("#listeningStatus", {
-      allowHTML: true,
-      content: "Listening to music from Spotify",
-      animation: 'scale'
-    });
-  // Presence 2
-    tippy('#statusIcon', {
-      allowHTML: true,
-      content: "Active",
-      animation: 'scale'
+    tippy('#blog',{
+      content: 'Blog',
+      arrow: false,
+      animation: 'scale',
+      theme: 'light'
     })
-    
+    tippy('#email',{
+      content: 'Blog',
+      arrow: false,
+      animation: 'scale',
+      theme: 'light'
+    })
+    // Github
+    tippy('#github',{
+      content: 'GitHub profile',
+      arrow: false,
+      animation: 'scale',
+      theme: 'light'
+    })
+    // İnstagram
+    tippy('#instagram',{
+      content: 'Instagram profile',
+      arrow: false,
+      animation: 'scale',
+      theme: 'light'
+    })
+    // Twitter
+    tippy('#twitter',{
+      content: 'Follow me on Twitter!',
+      arrow: false,
+      animation: 'scale',
+      theme: 'light'
+    })
