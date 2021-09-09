@@ -25,7 +25,7 @@
 
 </head>
 <body>
-    <main class="block full-container">
+    <main class="block">
         <section class="int text-center mb-2 m-4">
             <div class="ml-auto mr-auto pl-5 pr-5 max-w-7xl">
                 <div class="ademcan m-4 text-center object-center">
@@ -42,10 +42,9 @@
                         </div>                 
                     </div>
                     <div class="m-5">
-                <div class="app">
+                <div id="dab">
                     <p>
-                        Hi, I am AdemCan Certel 17 years old high school student in Turkey from 2017 I am doing the site with web technologies. 
-                        I'm mostly focused on JavaScript, doing web projects through JavaScript. I'm learning TypeScript now.
+                        {{ description_about }}
                     </p>
                 </div>
                 </div>
@@ -113,14 +112,14 @@
 </body>
 
 <!--Js-->
-<script src="assets/js/vue.js"></script>
+<script src="https://unpkg.com/vue@2.6.10/dist/vue.min.js"></script>
+<script src="https://unpkg.com/axios@0.19.0/dist/axios.min.js"></script>
+<script src="https://unpkg.com/vue-router@3.1.3/dist/vue-router.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.2.6/vue.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/vue-flow-form/1.1.0/vue-flow-form.umd.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/vanilla-tilt@1.7.1/lib/vanilla-tilt.min.js"></script>
 <script src="https://unpkg.com/@popperjs/core@2"></script>
 <script src="https://unpkg.com/tippy.js@6"></script>
+<script src="/assets/js/index.js"></script>
 <script src="./assets/js/tippy.js"></script>
-<script src="./assets/js/tilt.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
 </html>
