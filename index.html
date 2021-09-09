@@ -3,16 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta property="og:image"  content="./assets/images/ademcan.jpg">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="ademcan, frontend, adem, webdeveloper">
-    <meta name="theme-color" content="#57F287">
-    <meta name="description" content="Welcome to my webpage. My name is AdemCan and I am a FrontEnd Developer. I'm trying out great new libraries. I'm also in the process of learning ReactJS, TypeScript. I'll show you a lot of great projects.">
+    <meta name="description" content="Hello, I'm AdemCan, I live in Turkey and I'm a self-developing front end developer.">
 
     <title>AdemCan Certel</title>
 
     <!-- CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
+    <!--<link rel="stylesheet" href="assets/css/Repository.css">-->
     <link rel="icon" href="./assets/images/ademcan.jpg" type="image/x-icon" />
     <link rel="stylesheet" href="https://unpkg.com/tippy.js@6/animations/scale.css">
     <link rel="stylesheet" href="assets/tippy.css">
@@ -22,85 +21,132 @@
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 
 </head>
-<body style="height: 100%;" class="p-0 m-0 box-border text-white no-underline">
-    <header class="block int mb-2 m-4">
+<body class="p-0 m-0 box-border">
+    <main class="block">
+        <section class="int text-center mb-2 m-4">
             <div class="ml-auto mr-auto pl-5 pr-5 max-w-7xl">
-                <div class="ademcan m-4 object-center">
+                <div class="ademcan m-4 text-center object-center">
                     <img 
                     src="./assets/images/ademcan.jpg" 
-                    class="ademcan_img max-w-screen-lg mx-auto"
-                    data-tilt data-tilt-max="50" data-tilt-speed="400" data-tilt-perspective="500"
+                    class="ademcan_img max-w-screen-lg mx-auto text-center"
                     />
-                </div>
-                <div class="fixed left-3 md:left-5 bottom-0 z-30">
-                    <div class="flex flex-col justify-center items-center">
-                        <a id="mail" href="mailto:ademcancertel619@gmail.com">
-                            <svg style="color: #E5E7EB;" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-8 h-8 text-gray-800 dark:text-gray-200"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207"></path></svg>
-                        </a>
-                        <a id="github" href="https://github.com/AdemCanCertel">
-                            <img style="color: #E5E7EB;" src="assets/images/social/github.svg" class="w-6 md:w-8 mb-2 md:my-2">
-                        </a>
-                        <a id="linkedin" href="https://linkedin.com/in/ademcancertel">
-                            <img style="color: #E5E7EB;" src="assets/images/social/linkedin.svg" class="w-6 md:w-8 mb-2 md:my-2">
-                        </a>
-                        <a id="ınstagram" href="https://www.instagram.com/ademcancertel_/">
-                            <img style="color: #E5E7EB;" src="assets/images/social/instagram.svg" class="w-6 md:w-8 mb-2 md:my-2">
-                        </a>
-                        <a id="twitter" href="https://twitter.com/CertelAdemCan">
-                            <svg style="color: #E5E7EB;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="w-8 h-8 text-gray-800 dark:text-gray-200"><path d="M496 109.5a201.8 201.8 0 01-56.55 15.3 97.51 97.51 0 0043.33-53.6 197.74 197.74 0 01-62.56 23.5A99.14 99.14 0 00348.31 64c-54.42 0-98.46 43.4-98.46 96.9a93.21 93.21 0 002.54 22.1 280.7 280.7 0 01-203-101.3A95.69 95.69 0 0036 130.4c0 33.6 17.53 63.3 44 80.7A97.5 97.5 0 0135.22 199v1.2c0 47 34 86.1 79 95a100.76 100.76 0 01-25.94 3.4 94.38 94.38 0 01-18.51-1.8c12.51 38.5 48.92 66.5 92.05 67.3A199.59 199.59 0 0139.5 405.6a203 203 0 01-23.5-1.4A278.68 278.68 0 00166.74 448c181.36 0 280.44-147.7 280.44-275.8 0-4.2-.11-8.4-.31-12.5A198.48 198.48 0 00496 109.5z" fill="currentColor"></path></svg>
-                        </a>
-                        <div class="h-20 md:h-32 mt-2 w-1/12 bg-green-400"></div>
-                    </div>
+                    <span
+                    id="statusIcon"
+                    class="w-2 h-2 rounded-full inline-flex bg-gray-400"
+                    style="top: 60px; left: 217px; position: relative;"
+                  >
                 </div>
                 <div class="about mb-2">
-                    <div style="display: flex; justify-content: center;" class="wrapper">
-                        <div class="title_ademcan font-semibold text-4xl text-gray-300">
-                        <h1 style="font-size: 4.4rem; margin: 1px; margin-right: 900px; margin-left: 2rem;" class="text-3xl sm:text-2xl xl:text-1xl font-extrabold text-white leading-none mb-3">AdemCan</h1>
-                        <img src="assets/images/space shuttle.png" class="shuttle hidden md:block absolute w-2/3 md:w-16">
+                    <div style="display: flex; justify-content: center;" cl6ass="wrapper">
+                        <div class="title_ademcan font-semibold text-4xl">
+                        Hey, I'm AdemCan Certel
+                        <hr>
                         </div>                 
                     </div>
-                    <div class="about-description text-left text-2xl font-light text-violet max-w-prose">
-                    <p>
-                    Welcome to my webpage. My name is AdemCan and I am a FrontEnd Developer. 
+                    <div class="m-5">
+                    <p
+                    >
+                    Welcome to my Github profile. My name is AdemCan and I am a FrontEnd Developer. 
                     I'm trying out great new libraries. I'm also in the process of learning ReactJS, TypeScript. 
                     I'll show you a lot of great projects.
                     </p>
-                    <div class="vector w-60 h-60">
-                        <img src="assets/images/vector/business-3d-thumb-up-man.png"/>
-                    </div>
+
+                    <div id="listeningStatus" class="Lanyard_activity ml-1 ml-0.5 my-1.50 text-sm">
+                        <span class="text-center w-4 h-4 bg-green-500 rounded-full inline-flex">
+                        </span>
+                        <span id="listeningContent" class="ml-1"> Spotify Listening to <b>Spotify</b> </span>
+                      </div>   
+                </div>
                 </div>
             </div>
-    </header>
-    <div class="relative h-auto py-10 lg:py-10">
-        <div class="ml-4 sm:mx-12 md:mx-16 grid grid-cols-12 gap-4 h-auto place-items-center items-center">
-            <div class="col-span-12 md:col-span-7 lg:col-span-6 flex flex-x-col justify-center items-center">
-                <div style="margin-left: 32.2%; margin-top: 40%;" class="items-center w-3/4 relative">
-                   <div>
-                    <h1 class="font-bold">Technologies I use</h1>
-                    <hr class="w-16 sm:w-24 opacity-50">
-                   </div>
-                    <h1 class="w-4/5 mb-3 mt-1 text-2xl font-normal tracking-wide text-white leading-normal max-w-prose">I'm a high school student focused on JavaScript and developing projects on it. I read books in my spare time.</h1>
-                </div>
+        </section>
+        <section class="social text-2xl text-center">
+            <div class="container social_link">
+            <a 
+                id="trello"
+                class="text-white hover:text-green-300" 
+                target="_blank" 
+                href="https://trello.com/b/r41pGuVr/ademcan-plans"
+            >
+                Trello
+            </a>
+            <a 
+                id="discord" 
+                class="text-white hover:text-green-300" 
+                target="_blank" 
+                href="https://discord.gg/dwgkB4hua2"
+            >
+                Discord
+            </a>
+            <a 
+                id="twitter" 
+                class="text-white hover:text-green-300" 
+                target="_blank" 
+                href="https://twitter.com/CertelAdemcan"
+            >   
+                Twitter
+            </a>
+            <a 
+                id="instagram" 
+                class="text-white hover:text-green-300" 
+                target="_blank" 
+                href="https://www.instagram.com/ademcancertel_/"
+            >   
+                İnstagram
+            </a>
+            <a  
+                id="github" 
+                class="text-white hover:text-green-300" 
+                target="_blank" 
+                href="https://github.com/AdemCanCertel"
+            >
+                Github
+            </a>
+            <a 
+                id="steam" 
+                class="text-white hover:text-green-300" 
+                target="_blank" 
+                href="https://steamcommunity.com/id/ademcancertel/"
+            >   
+                Steam
+            </a>
+                <a 
+                id="email"
+                class="text-white hover:text-green-300" 
+                target="_blank" 
+                href="mailto:ademcancertel619@gmail.com"
+            >   
+                e-mail
+            </a>
+            <a 
+                id="blog" 
+                class="text-white hover:text-green-300" 
+                target="_blank" 
+                href="https://ademcancerteldev.medium.com"
+            >   
+                Blog
+            </a>
+
             </div>
-            <div class="col-span-12 md:col-span-5 lg:col-span-6 flex flex-x-col justify-center items-center my-10 sm:mt-80">
-                <div class="flex flex-col items-center justify-center lg:mt-16">
-                    <div class="flex items-center justify-center">
-                        <img id="javascript" src="assets/images/tech/JavaScript.svg" class="p-2 sm:p-6 w-1/5 sm:w-36 md:w-32" data-tilt data-tilt-scale="1.1">
-                        <img id="html5" src="assets/images/tech/Html5.svg" class="p-2 sm:p-6 w-1/5 sm:w-36 md:w-32" data-tilt data-tilt-scale="1.1">
-                        <img id="nuxtjs" src="assets/images/tech/Nuxt.svg" class="p-2 sm:p-6 w-1/5 sm:w-36 md:w-32" data-tilt data-tilt-scale="1.1">
-                        <img id="vuejs" src="assets/images/tech/VueJS.svg" class="p-2 sm:p-6 w-1/5 sm:w-36 md:w-32" data-tilt data-tilt-scale="1.1">
-                        <img id="reactjs" src="assets/images/tech/ReactJS.png" class="p-2 sm:p-6 w-1/5 sm:w-36 md:w-32" data-tilt data-tilt-scale="1.1">
-                        <img id="figma" src="assets/images/tech/Figma.svg" class="p-2 sm:p-6 w-1/5 sm:w-36 md:w-32" data-tilt data-tilt-scale="1.1">
-                    </div>
-                </div>
             </div>
-        </div>
-    </div>
+              <p class="specialtext">The most beautiful words of the people I love</p>
+                <div class="special">
+                    <p>&dblac;O Turkish youth! Your first duty is to preserve and defend the Turkish independence, the Turkish Republic forever. This is the very foundation of your existence and your future.&DiacriticalDoubleAcute;</p>
+                <p>&mdash; Mustafa Kemal Atatürk</p>
+                </div>
+                
+                <div class="special">
+                   
+                    <p>&dblac;Don't try to be a successful person, try to be a valuable person.&DiacriticalDoubleAcute;</p>
+                <p>&mdash; Albert Einstein</p>
+                </div>
+        </section>
+    </main>
 </body>
-<!--Js-->
-<script src="https://cdn.jsdelivr.net/npm/vanilla-tilt@1.7.1/lib/vanilla-tilt.min.js"></script>
+<script src="./assets/js/index.js"></script>
+<script src="./assets/js/presence.js"></script>
+
 <script src="https://unpkg.com/@popperjs/core@2"></script>
 <script src="https://unpkg.com/tippy.js@6"></script>
 <script src="./assets/js/tippy.js"></script>
-<script src="./assets/js/tilt.js"></script>
 </html>
