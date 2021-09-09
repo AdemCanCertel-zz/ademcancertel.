@@ -80,21 +80,3 @@ a {
     width: 600px;
     height: 300px;
   }
-  
-  
-
-  .Lanyard_activity { 
-    left: 468px;
-    padding:20px;
-    width:300px;
-    height:85px;
-    top: 20px;
-    position: relative;
-    -webkit-transition:background-color 1s;
-    transition:background-color 1s;
-    -webkit-transition:border-color 1s;
-    transition:border-color 1s;
-    background-color:#161616;
-    border:.75px solid hsla(0,0%,78.4%,.3);
-    border-radius:5px
-}
