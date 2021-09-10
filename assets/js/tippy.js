@@ -1,6 +1,4 @@
-  // SOCİAL
-
-  // Mail
+   // Mail
     tippy('#mail',{
         content: 'Mail me',
         arrow: false,
@@ -9,12 +7,6 @@
       });
     // Blog
     tippy('#blog',{
-      content: 'Blog',
-      arrow: false,
-      animation: 'scale',
-      theme: 'light'
-    })
-    tippy('#email',{
       content: 'Blog',
       arrow: false,
       animation: 'scale',
@@ -37,6 +29,34 @@
     // Twitter
     tippy('#twitter',{
       content: 'Follow me on Twitter!',
+      arrow: false,
+      animation: 'scale',
+      theme: 'light'
+    })
+
+    tippy('#tools-google', {
+      content: 'Google Chrome Browser',
+      arrow: false,
+      animation: 'scale',
+      theme: 'light'
+    })
+
+    tippy('#tools-protopie', {
+      content: 'UI Designer',
+      arrow: false,
+      animation: 'scale',
+      theme: 'light'
+    })
+
+    tippy('#tools-github-desk', {
+      content: 'GitHub Desktop',
+      arrow: false,
+      animation: 'scale',
+      theme: 'light'
+    })
+
+    tippy('#tools-figma', {
+      content: 'Figma UI Design',
       arrow: false,
       animation: 'scale',
       theme: 'light'

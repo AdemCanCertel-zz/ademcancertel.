@@ -1,6 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;500;600&display=swap');
+
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: var(--body-font);
     font-size: 18px;
     background-color: var(--bg-color);
     color: var(--text-color);
@@ -9,9 +10,16 @@ body {
 }
 
 :root {
+    --body-font: font-family: 'Inconsolata', monospace;;
     --text-color: white;
     --bg-color: #111827;
-    --int: 20px
+    --int: 20px;
+
+    /* Hue Color */
+    --hue-color: 250;
+
+    /* HSL Colors */
+    --text-color-light: hsl(var(--hue-color), 8%, 65%);
 }
 
 .container {
@@ -22,17 +30,16 @@ body {
     max-width: 800px;
 }
 
-.int {
-    padding-top: var(--int);
-    padding-bottom: var(--int);
+h1,h2,h3,h4 {
+    color: var(--title-color);
 }
 
-.int, .social {
-    font-size: 1.3em;
+p {
+    color: var(--text-color-light);
 }
 
-.int, .about, p {
-    margin-bottom: 10px;
+.text-white:hover {
+    color: #57F287;
 }
 
 .int, .ademcan {
@@ -42,11 +49,15 @@ body {
 
 .int .ademcan .ademcan_img {
     text-align: center;
-    border-radius: 100%;
+    border-radius: 50% !important;
+    box-shadow: #2C2F33 3px 2px 4px;
     width: 8em;
     height: 8em;
-    border: 4px solid #57F287;
     object-fit: cover;    
+}
+
+.title_ademcan {
+    color: #5865F2;
 }
 
 .social .social_link a {
@@ -54,30 +65,22 @@ body {
     font-weight: 600;
     line-height: 25px;
     display: inline-block;
-}
-
-a {
-    color: white;
     text-decoration: none;
 }
 
 .special {
-    color: white;
     max-width: 800px;
     margin: 40px auto;
     position: relative;
     font-weight: 300;
-    animation: fe30-anime 0.5s cubic-bezier(0.215, 0.61, 0.355, 1) 4s forwards;
 }
 
-.specialtext {
-    text-align: center;
-    margin: 40px auto;
+.special-title {
+    color: #FEE75C;
 }
-
-.swiper-container {
-    width: 600px;
-    height: 300px;
-  }
-
-  
+ .tools {
+     color: #EB459E;
+ }
+ .tools-about {
+     color: #ED4245;
+ }
