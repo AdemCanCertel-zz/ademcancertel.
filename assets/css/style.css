@@ -36,3 +36,14 @@ header {
 .font-bold {
     font-weight: 700;
 }
+
+::-webkit-scrollbar {
+    width: 3px;
+    background-color: transparent;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #57F287;
+}
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
