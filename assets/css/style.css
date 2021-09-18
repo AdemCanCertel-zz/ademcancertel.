@@ -33,26 +33,6 @@ header {
     line-height: 2rem;
 }
 
-.title-name {
-    background: -webkit-linear-gradient(45deg,#00ff95, #09009f 80%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-.rank {
-    color: #AA9AB4;
-}
-
 .font-bold {
     font-weight: 700;
-}
-
-.tech {
-    background: -webkit-linear-gradient(45deg,#00ff95, #09009f 80%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-::selection {
-    color: #AA9AB4;
 }
