@@ -1,1 +1,1 @@
-<img src="https://i.imgur.com/0Tk3AS6.png"/>
+<img src="https://github.com/AdemCanCertel/ademcancertel.github.io/blob/main/assets/images/demo_image.png"/>
