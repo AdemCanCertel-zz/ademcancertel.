@@ -37,13 +37,22 @@ header {
     font-weight: 700;
 }
 
+.githubRepo_ {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 10;
+}
+
 ::-webkit-scrollbar {
     width: 3px;
     background-color: transparent;
 }
+
 ::-webkit-scrollbar-thumb {
     background-color: #57F287;
 }
+
 ::-webkit-scrollbar-track {
     background-color: transparent;
 }
+
