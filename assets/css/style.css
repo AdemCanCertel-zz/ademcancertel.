@@ -20,6 +20,11 @@ header {
     gap: 24px;
 }
 
+.site-footer {
+    grid-gap: 24px;
+    gap: 24px;
+}
+
 .full-container {
     max-width: 42rem;
     margin-left: auto;
