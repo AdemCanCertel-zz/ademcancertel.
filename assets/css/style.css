@@ -48,6 +48,16 @@ header {
     -webkit-line-clamp: 10;
 }
 
+.work_twitter, .work_netflix, .work_website {
+ background-color: #1F2937;
+}
+
+.projects_bg {
+background-image: url(https://cdn.discordapp.com/attachments/870311702347018250/890518504707588106/Adsz_tasarm.png); 
+background-position: center center;
+background-size: cover;
+}
+
 ::-webkit-scrollbar {
     width: 3px;
     background-color: transparent;
