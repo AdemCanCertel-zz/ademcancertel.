@@ -6,9 +6,11 @@
 }
 
 body {
-    font-family: sans-serif;
-    background-color: #111827;
-    color: #000000a0;
+    background-color:black;
+}
+
+.h1 {
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
 
 header {
@@ -46,16 +48,6 @@ header {
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 10;
-}
-
-.work_twitter, .work_netflix, .work_website {
- background-color: #1F2937;
-}
-
-.projects_bg {
-background-image: url(https://cdn.discordapp.com/attachments/870311702347018250/890518504707588106/Adsz_tasarm.png); 
-background-position: center center;
-background-size: cover;
 }
 
 ::-webkit-scrollbar {
