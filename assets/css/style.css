@@ -43,6 +43,10 @@ header {
     font-weight: 700;
 }
 
+.font-semibold {
+    font-weight: 600;
+}
+
 .githubRepo_ {
     display: -webkit-box;
     -webkit-box-orient: vertical;
