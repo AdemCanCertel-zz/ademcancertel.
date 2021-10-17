@@ -1,0 +1,34 @@
+{
+    "name": "AdemCan Certel",
+    "description": "Hi there, my name is  AdemCan Certel 17 years old high school student in Turkey from 2017 I am doing the site with web technologies. Doing web projects through JavaScript.",
+    "short_name": "AdemCan Certel",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#F87171",
+    "theme_color": "#FFFFFF",
+    "orientation": "portrait",
+    "icons": [
+      {
+        "src": "https://ademcancertel.github.io/assets/images/A_logo.png",
+        "sizes": "460x460",
+        "type": "image/png"
+      }
+    ],
+    "about": {
+      "top": {
+        "avatar": "https://ademcancertel.github.io/assets/images/A_logo.png",
+        "buttons": [
+          {
+            "url": "https://github.com/AdemCanCertel/ademcancertel.github.io",
+            "text": "This Repo",
+            "color": "#F87171"
+          },
+          {
+            "url": "http://api.whatsapp.com/send?phone=905345829224",
+            "text": "Hire Me",
+            "color": "yellow"
+          }
+        ]
+      }
+    }
+  }

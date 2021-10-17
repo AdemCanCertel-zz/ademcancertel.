@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="manifest" href="config.json">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
@@ -9,7 +10,7 @@
     <meta name="description" content="Hi, I am AdemCan Certel 17 years old high school student in Turkey from 2017 I am doing the site with web technologies. I'm mostly focused on JavaScript, doing web projects through JavaScript.">
     <meta property="og:image"content="https://ademcancertel.github.io/assets/images/A_logo.png" />
 
-    <title>AdemCan Certel</title>
+    <title translate="no">AdemCan Certel</title>
 
     <!-- CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
@@ -31,18 +32,18 @@
             </div>
         </section>
     </header>
-<main>
+<main id="config">
     <div class="full-container">
         <section>
         <div class="space-y-5 mt-10">
             <div class="title text-gray-100 text-xl md:text-3xl text-highlight font-semibold">
-                <h1>AdemCan Certel</h1>
+                <h1 translate="no"> {{ this.about.content.title }} </h1>
                <h1 class="text-xl">
                    <span class="text-red-400">Front-end</span> developer
                </h1>
             </div>
             <div style="color: rgba(229,231,235);" class="subtitle text-md">
-                Hi there, my name is  AdemCan Certel 17 years old high school student in Turkey from 2017 I am doing the site with web technologies. Doing web projects through JavaScript.
+                {{ this.about.content.subtitle }}
             </div>
         </div>
         <div class="flex mt-4 space-x-4">
@@ -251,6 +252,18 @@
 <script src="https://unpkg.com/vue@2.6.10/dist/vue.min.js"></script>
 <script src="https://unpkg.com/axios@0.19.0/dist/axios.min.js"></script>
 <script src="https://unpkg.com/vue-router@3.1.3/dist/vue-router.min.js"></script>
-<script src="/assets/js/App.js"></script>
 <script src="/assets/js/Status.js"></script>
+<script>
+var config = new Vue({
+  el: '#config',
+  data: {
+      about: {
+        content: {
+            title: "AdemCan Certel",
+            subtitle: "Hi there, my name is  AdemCan Certel 17 years old high school student in Turkey from 2017 I am doing the site with web technologies. Doing web projects through JavaScript."
+        }
+    }
+  }
+})
+</script>
 </html>
