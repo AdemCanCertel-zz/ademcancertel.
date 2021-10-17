@@ -13,22 +13,5 @@
         "sizes": "460x460",
         "type": "image/png"
       }
-    ],
-    "about": {
-      "top": {
-        "avatar": "https://ademcancertel.github.io/assets/images/A_logo.png",
-        "buttons": [
-          {
-            "url": "https://github.com/AdemCanCertel/ademcancertel.github.io",
-            "text": "This Repo",
-            "color": "#F87171"
-          },
-          {
-            "url": "http://api.whatsapp.com/send?phone=905345829224",
-            "text": "Hire Me",
-            "color": "yellow"
-          }
-        ]
-      }
-    }
+    ]
   }
