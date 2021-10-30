@@ -10,7 +10,7 @@
 
     <title translate="no">AdemCan Certel</title>
 
-    <!-- LİNK -->
+    <!-- Css -->
     <link rel="icon" sizes="192x192" href="/assets/images/A_logo_bg-clear.png">
     <link rel="manifest" href="manifest.json">
     <link rel="stylesheet" href="assets/css/style.css">
@@ -19,10 +19,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA== "crossorigin="anonymous" referrerpolicy="no-referrer">
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body>
-    <header style="backdrop-filter: blur(16px);" class="sticky top-0 text-white mt-2 text-gray-400">
+<body cz-shortcut-listen="true">
+    <header style="backdrop-filter: blur(16px);" class="sticky top-0 mt-2 text-gray-400">
         <section class="items-center flex justify-between full-container">
-        <a href="/" title="AdemCan Certel 🤙" class="rounded-full px-1 py-1 hover:bg-gray-700 transition-transform sm:transform hover:-rotate-45 delay-150 duration-300">
+        <a href="/" title="AdemCan Certel 🤙" class="rounded-full px-1 py-1 hover:bg-gray-700 hover:bg-opacity-25 transition-transform sm:transform hover:-rotate-45 delay-150 duration-300">
             <img class="w-7 h-7 rounded-md" src="/assets/images/A_logo_white.png"/>
         </a>
             <div class="flex items-center site-navbar">
@@ -39,7 +39,7 @@
             <div class="title text-gray-100 text-xl md:text-3xl text-highlight font-semibold">
                 <h1 translate="no"> AdemCan Certel </h1>
                <h1 class="text-xl">
-                   <span style="color: #6E6E73;">Front-end</span> developer
+                   <span translate="no" class="text-heading-title" style="color: #b7b7a4;">Front-end</span> developer
                </h1>
             </div>
             <div style="color: rgba(229,231,235);" class="text-md whitespace-normal">
@@ -47,11 +47,11 @@
             </div>
         </div>
         <div class="flex">
-            <a href="https://steamcommunity.com/id/ademcancertel/" title="Steam profile!" target="_blank" class="border border-opacity-10 hover:bg-gray-800 text-white rounded-md mt-2 mr-2 items-center p-2 border-2 transform transition duration-500">
+            <a href="https://steamcommunity.com/id/ademcancertel/" title="Steam profile!" target="_blank" class="border-2 border-opacity-10 hover:bg-gray-800 hover:bg-opacity-25 text-white rounded-tl-lg mt-2 mr-2 items-center p-2 transform transition duration-500">
                 <i class="fa-brands fa-steam"></i>
                 Steam
             </a>
-            <a href="https://www.instagram.com/ademcancertel_/" title="Follow me on Instagram!" target="_blank" class="border border-opacity-10 hover:bg-pink-800 text-white rounded-md mt-2 mr-2 items-center p-2 border-2 transform transition duration-500">
+            <a href="https://www.instagram.com/ademcancertel_/" title="Follow me on Instagram!" target="_blank" class="border-2 border-opacity-10 hover:bg-gray-800 hover:bg-opacity-25 text-white rounded-tr-lg mt-2 mr-2 items-center p-2 transform transition duration-500">
                 <i class="fa-brands fa-instagram"></i>
                 İnstagram
             </a>
@@ -244,8 +244,8 @@
     </div>
     </div>
 </footer>
-
 </body>
 <!-- JS -->
 <script src="/assets/js/Status.js"></script>
+<script src="/tailwind.config.js"></script>
 </html>
