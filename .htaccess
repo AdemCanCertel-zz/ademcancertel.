@@ -1,6 +1,7 @@
 RewriteEngine On
+Options +FollowSymlinks
 
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([^\.]+)$ $1.html [NC,L]
-
-ErrorDocument 404 /404.html
+RewriteRule ^index.*$ index.html [NC]
+RewriteRule ^about.*$ about.html [NC]
